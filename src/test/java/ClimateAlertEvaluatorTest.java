@@ -1,10 +1,9 @@
-package ar.edu.utn.frba.ddsi.climalert.alert.service;
-
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import ar.edu.utn.frba.ddsi.climalert.climate.model.ClimateRecord;
-import ar.edu.utn.frba.ddsi.climalert.config.ClimalertProperties;
+import service.ClimateAlertEvaluator;
+import climate.model.ClimateRecord;
+import config.ClimalertProperties;
 import java.time.LocalDateTime;
 import java.util.List;
 import org.junit.jupiter.api.Test;

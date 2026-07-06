@@ -1,7 +1,7 @@
-package ar.edu.utn.frba.ddsi.climalert.alert.service;
+package service;
 
-import ar.edu.utn.frba.ddsi.climalert.climate.model.ClimateRecord;
-import ar.edu.utn.frba.ddsi.climalert.config.ClimalertProperties;
+import climate.model.ClimateRecord;
+import config.ClimalertProperties;
 import org.springframework.stereotype.Component;
 
 @Component

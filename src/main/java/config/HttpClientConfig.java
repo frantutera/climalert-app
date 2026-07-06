@@ -1,4 +1,4 @@
-package ar.edu.utn.frba.ddsi.climalert.config;
+package config;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

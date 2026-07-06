@@ -1,6 +1,6 @@
-package ar.edu.utn.frba.ddsi.climalert.scheduler;
+package scheduler;
 
-import ar.edu.utn.frba.ddsi.climalert.climate.service.ClimateMonitoringService;
+import climate.service.ClimateMonitoringService;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 

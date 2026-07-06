@@ -1,7 +1,7 @@
-package ar.edu.utn.frba.ddsi.climalert.climate.service;
+package climate.service;
 
-import ar.edu.utn.frba.ddsi.climalert.climate.dto.WeatherApiCurrentResponse;
-import ar.edu.utn.frba.ddsi.climalert.config.ClimalertProperties;
+import climate.dto.WeatherApiCurrentResponse;
+import config.ClimalertProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestClient;
 

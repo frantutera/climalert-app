@@ -1,8 +1,8 @@
-package ar.edu.utn.frba.ddsi.climalert.climate.service;
+package climate.service;
 
-import ar.edu.utn.frba.ddsi.climalert.alert.service.AlertEmailService;
-import ar.edu.utn.frba.ddsi.climalert.alert.service.ClimateAlertEvaluator;
-import ar.edu.utn.frba.ddsi.climalert.climate.model.ClimateRecord;
+import service.AlertEmailService;
+import service.ClimateAlertEvaluator;
+import climate.model.ClimateRecord;
 import java.time.LocalDateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

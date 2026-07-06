@@ -1,4 +1,4 @@
-package ar.edu.utn.frba.ddsi.climalert.climate.model;
+package climate.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

@@ -1,4 +1,4 @@
-package ar.edu.utn.frba.ddsi.climalert.config;
+package config;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
@@ -16,7 +16,8 @@ public record ClimalertProperties(
 ) {
 
   public record Weather(
-      @NotBlank String apiKey,
+      @NotBlank(message = "climalert.weather.api-key must be set. Provide WEATHER_API_KEY in the environment.")
+      String apiKey,
       @NotBlank String baseUrl,
       @NotBlank String location
   ) {

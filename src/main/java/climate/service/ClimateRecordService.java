@@ -1,8 +1,8 @@
-package ar.edu.utn.frba.ddsi.climalert.climate.service;
+package climate.service;
 
-import ar.edu.utn.frba.ddsi.climalert.climate.dto.WeatherApiCurrentResponse;
-import ar.edu.utn.frba.ddsi.climalert.climate.model.ClimateRecord;
-import ar.edu.utn.frba.ddsi.climalert.climate.repository.ClimateRecordRepository;
+import climate.dto.WeatherApiCurrentResponse;
+import climate.model.ClimateRecord;
+import climate.repository.ClimateRecordRepository;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Optional;
